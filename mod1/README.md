@@ -32,5 +32,6 @@ plt.show()
 
 6. Visual Studio code
    
-   ![6. Запуск скрипта в Visual Studio Code и результат](img/6.2_VSC_run.png)
+   ![6. Запуск скрипта в Visual Studio Code и результат](./img/6.2_VSC_run.png)
+
 
