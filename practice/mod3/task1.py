@@ -16,8 +16,7 @@ OUTPUT = """{city:=^50}
 """
 
 def weather(city, params):
-    URL = URL_API.format(city=city)
-    response: requests.Response = requests.get(URL, params=params)
+    response: requests.Response = requests.get(URL_API, params=params)
     if response.status_code == 200:
         return response.json()
     else:
